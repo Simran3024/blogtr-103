@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training TR-103</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #eef2f3;
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #4a90e2, #50c9c3);
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-logo img {
+            height: 80px; /* Increased size */
+            width: auto; /* Maintain aspect ratio */
+        }
+
+        .header-text {
+            text-align: center;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            font-family: 'Lobster', cursive;
+            font-size: 2.8rem;
+            letter-spacing: 1px;
+        }
+
+        .header-text p {
+            margin: 5px 0;
+            font-weight: 300;
+            font-size: 1rem;
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .about {
+            background: #fff;
+            padding: 30px;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            max-width: 600px;
+        }
+
+        .about h2 {
+            font-size: 2rem;
+            color: #4a90e2;
+            margin-bottom: 10px;
+        }
+
+        .about p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .weeks-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .week-btn {
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(135deg, #50c9c3, #4a90e2);
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .week-btn:hover {
+            background: linear-gradient(135deg, #4a90e2, #50c9c3);
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: linear-gradient(135deg, #4a90e2, #50c9c3);
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-logo">
+            <img src="gndec.png" alt="GNDEC Logo">
+        </div>
+        <div class="header-text">
+            <h1>Training TR-103 Report</h1>
+            <p>4 Week Training at Alert Enterprise</p>
+        </div>
+        <div class="header-logo">
+            <img src="Spectra.png" alt="CSIR Logo">
+        </div>
+    </div>
+
+    <main>
+        <div class="about">
+            <h2>By Simranjeet Kaur</h2>
+            <p>URN: 2203596 / CRN: 2115189</p>
+            <p>B.Tech CSE <br> D4 C2 2021-2025<br> Guru Nanak Dev Engineering College Ludhiana</p>
+        </div>
+
+        <div class="weeks-container">
+            <button class="week-btn" onclick="window.location.href='week1.html'">Week 1</button>
+            <button class="week-btn" onclick="window.location.href='week2.html'">Week 2</button>
+            <button class="week-btn" onclick="window.location.href='week3.html'">Week 3</button>
+            <button class="week-btn" onclick="window.location.href='week4.html'">Week 4</button>
+     
+        </div>
+    </main>
+
+    <footer>
+        <p>Alert Enterprise</p>
+        <p>&copy; 2025 Simranjeet Kaur | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

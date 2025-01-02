@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #4a90e2, #50c9c3);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo img {
+    height: 100px;
+    width: auto;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+}
+
+.header-text p {
+    margin: 5px 0;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about {
+    background: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.about p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.weeks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.week-btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #50c9c3, #4a90e2);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.week-btn:hover {
+    background: linear-gradient(135deg, #4a90e2, #50c9c3);
+    transform: scale(1.05);
+}
+
+.week-btn:active {
+    transform: scale(1.02);
+}
+
+.days-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.day {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.day h3 {
+    color: #4a90e2;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.day p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.day ul {
+    padding-left: 20px;
+}
+
+.day ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: linear-gradient(135deg, #4a90e2, #50c9c3);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}

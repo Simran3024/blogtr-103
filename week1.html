@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1 - Masterji Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body lang="en">
+
+    <div class="header" lang="en">
+        <div class="header-logo" lang="en">
+            <img src="gndec.png" alt="GNDEC Logo">
+        </div>
+
+        <div class="header-text" lang="en">
+            <h1>Masterji Chatbot - Week 1</h1>
+        </div>
+
+        <div class="header-logo" lang="en">
+            <img src="Spectra.png" alt="Spectra Logo">
+        </div>
+    </div>
+
+    <main lang="en">
+         <div class="about">
+            <h2>By Simranjeet Kaur</h2>
+            <p>URN: 2203596 / CRN: 2115189</p>
+            <p>B.Tech CSE <br> D4 C2 2021-2025<br> Guru Nanak Dev Engineering College Ludhiana</p>
+        </div>
+
+        <div class="weeks-container">
+            <button class="week-btn" onclick="window.location.href='week1.html'">Week 1</button>
+            <button class="week-btn" onclick="window.location.href='week2.html'">Week 2</button>
+            <button class="week-btn" onclick="window.location.href='week3.html'">Week 3</button>
+            <button class="week-btn" onclick="window.location.href='week4.html'">Week 4</button>
+     
+        </div>
+        <section class="week-container" lang="en">
+            <h2 lang="en">Week 1: Exploring Large Language Models (LLMs) (June 24 - June 28, 2024)</h2>
+            
+            <div class="days-container" lang="en">
+                <div class="day" lang="en">
+                    <h3 lang="en">Day 1:  What is NLP and LLM?</h3>
+                    <p lang="en"><strong lang="en">Date:</strong> Monday, June 24 , 2024</p>
+                    <p lang="en">LLMs are a type of artificial intelligence model designed to understand, generate, and transform human language. These models are typically trained on vast datasets containing a large variety of text, enabling them to learn patterns, nuances, and context within human language. The larger and more diverse the dataset, the more powerful the LLM becomes in generating coherent and contextually accurate text.</p>
+                    <p lang="en">Some of the most well-known LLM is:</p>
+                    <p lang="en">GPT-3 (Generative Pretrained Transformer 3): Developed by OpenAI, GPT-3 is one of the largest LLMs to date, with 175 billion parameters. It is capable of performing a wide range of tasks, including text generation, translation, summarization, and even code generation.</p>
+                </div>
+
+                <div class="day" lang="en">
+                    <h3 lang="en">Day 2: What is Fine-Tuning?</h3>
+                    <p lang="en"><strong lang="en">Date:</strong> Tuesday, June 25, 2024</p>
+                    <p lang="en">Fine-Tuning: Fine-tuning refers to the process of adapting a pre-trained model to a specific task or domain by training it further on task-specific data. Rather than starting from scratch, fine-tuning leverages the general knowledge already acquired by the model from vast amounts of data and refines it to enhance performance on particular tasks.</p>
+                </div>
+
+                <div class="day" lang="en">
+                    <h3 lang="en">Day 3: Methods of Fine-Tuning</h3>
+                    <p lang="en"><strong lang="en">Date:</strong> Wednesday, June 26, 2024</p>
+                    <ul lang="en">
+                        <li lang="en"><h4 lang="en">Few-shot Learning:</h4>
+                            <p lang="en">Few-shot learning involves training a model with just a few examples of a specific task to adapt it to new tasks with minimal data. It’s especially useful when obtaining large amounts of task-specific data is challenging or expensive. The model is shown a small set of examples (usually 1-10) and is then able to generalize and perform well on similar, unseen tasks.
+                            <br><strong lang="en">Example:</strong> A customer service platform might use few-shot learning to quickly adapt a chatbot to a specific company’s FAQ list with just a handful of example conversations, allowing the bot to help customers with unique or complex questions.
+                           </p> 
+                        </li>
+                        <br>
+                        <li lang="en"><strong lang="en">Retraining:</strong>
+                            <p lang="en">Retraining involves using a large dataset, such as 10GB of data, to further train the model on specific tasks. By leveraging such extensive data, the model learns new patterns and behaviors, enhancing its performance in specialized domains.
+                            <br><strong lang="en">Example:</strong> A company might retrain a model to predict customer churn based on a customer database containing transaction histories, behavior patterns, and service interactions.
+                            </p>
+                        </li>
+                        <br>
+                        <li lang="en"><strong lang="en">RAG (Retrieval-Augmented Generation):</strong>
+                            <p lang="en">This approach combines text generation with information retrieval. By using vector-based text embeddings, the model retrieves relevant data from a knowledge base to generate precise and context-aware responses, making it ideal for tasks requiring factual accuracy.
+                            </p><br><strong lang="en">Example:</strong> <p lang="en">A product support chatbot might use RAG to pull in product manuals, troubleshooting guides, or online forums to provide more informed responses to customer inquiries. The chatbot first retrieves relevant data and then generates a response based on that data.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="day" lang="en">
+                    <h3 lang="en">Day 4: What are Embeddings?</h3>
+                    <p lang="en"><strong lang="en">Date:</strong> Thursday, June 27, 2024</p>
+                    <p lang="en">Embeddings are numerical representations of text, words, or concepts in a multi-dimensional space. These representations capture semantic relationships, allowing models to understand context and meaning. For example, the words "king" and "queen" might have embeddings that are close in vector space due to their related meanings. Embeddings are foundational for tasks like similarity detection, clustering, and recommendation systems.</p>
+                </div>
+
+                <div class="day" lang="en">
+                    <h3 lang="en">Day 5: What is Vector Data?</h3>
+                    <p lang="en"><strong lang="en">Date:</strong> Friday, June 28, 2024</p>
+                    <p lang="en">Vector data is a structured representation of information as points or vectors in a multi-dimensional space. It enables efficient storage, retrieval, and analysis of data. In the context of AI and NLP, vector data often represents text embeddings or image features, allowing for tasks like search, clustering, and pattern recognition. For instance, when querying a database, vector data can help retrieve the most semantically similar items quickly and accurately.</p>
+                    <strong lang="en">Example:</strong><p lang="en">A search engine that uses vector data would return results for a query like “best restaurants in town” not just based on exact keyword matches but by understanding the intent behind the search, even if the words differ.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer lang="en">
+        <p lang="en">AlertEnterprise</p>
+        <p lang="en">&copy;2025 Simranjeet Kaur | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

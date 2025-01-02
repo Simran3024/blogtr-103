@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 - Masterji Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body lang="en">
+
+    <div class="header" lang="en">
+        <div class="header-logo" lang="en">
+            <img src="gndec.png" alt="GNDEC Logo">
+        </div>
+
+        <div class="header-text" lang="en">
+            <h1>Masterji Chatbot - Week 2</h1>
+        </div>
+
+        <div class="header-logo" lang="en">
+            <img src="Spectra.png" alt="Spectra Logo">
+        </div>
+    </div>
+
+   <main lang="en">
+         <div class="about">
+            <h2>By Simranjeet Kaur</h2>
+            <p>URN: 2203596 / CRN: 2115189</p>
+            <p>B.Tech CSE <br> D4 C2 2021-2025<br> Guru Nanak Dev Engineering College Ludhiana</p>
+        </div>
+
+        <div class="weeks-container">
+            <button class="week-btn" onclick="window.location.href='week1.html'">Week 1</button>
+            <button class="week-btn" onclick="window.location.href='week2.html'">Week 2</button>
+            <button class="week-btn" onclick="window.location.href='week3.html'">Week 3</button>
+            <button class="week-btn" onclick="window.location.href='week4.html'">Week 4</button>
+     
+        </div>
+        <section class="week-container">
+            <h2>Week 2: Learning RAG and Exploring AI Advancements (July 1 - July 5, 2024)</h2></h2>
+            
+            <div class="days-container">
+                <div class="day">
+                    <h3>Day 1: LLM Challenges</h3>
+                    <p><strong>Date:</strong> Monday, July 1, 2024</p>
+                    <p>The challenges with Large Language Models (LLMs) often include:</p>
+                    <p><ul>
+                        <li><strong>No Source:</strong> <p>LLMs generate content but do not provide references to the sources of information, making it difficult to verify the accuracy of the generated data.</li>
+                        </p><li><strong>Outdated Data:</strong><p> The models are often trained on data that may be outdated, leading to irrelevant or incorrect answers, particularly for rapidly changing fields.</li>
+                    </p></ul></p>
+                    </p></ul></p>
+                    <p>To address these issues, we use Retrieval-Augmented Generation (RAG), which combines information retrieval with text generation to improve the accuracy and relevance of responses by fetching real-time data and integrating it into the model's output.</p>
+                </div>
+
+                <div class="day">
+                    <h3>Day 2: How to Implement RAG</h3>
+                    <p><strong>Date:</strong> Tuesday, July 2, 2024</p>
+                    <p>Implementing RAG involves combining pre-trained language models with external data retrieval systems. The process typically follows these steps:</p>
+                    <p><ol>
+                        <li><strong>Data Retrieval:</strong> <p>Use vector-based search engines or databases to retrieve relevant documents based on the input query.</li>
+                        </p><li><strong>Text Generation:</strong><p> After retrieving the most relevant information, the model generates a response by integrating this data with its own understanding.</li>
+                       </p> <li><strong>Fine-Tuning:</strong> <p>Fine-tune the integrated system to ensure the quality of generated responses is contextually appropriate and factually accurate.</li>
+                    </p></ol></p>
+                    <p>This process ensures the model can generate more informed, accurate, and timely responses.</p>
+                </div>
+
+                <div class="day">
+                    <h3>Day 3: Chunking in RAG</h3>
+                    <p><strong>Date:</strong> Wednesday, July 3, 2024</p>
+                    <p>Chunking in RAG refers to breaking large documents or data into smaller, manageable chunks to make the retrieval process more efficient. The steps involved include:</p>
+                    <p><ul>
+                        <li><strong>Chunking Documents:</strong> <p>Divide large documents into smaller segments (chunks), each representing a logical portion of the content, such as paragraphs or sections.</li>
+                       </p> <li><strong>Vectorization:</strong><p> Convert these chunks into vector embeddings, allowing the system to search through chunks quickly and accurately.</li>
+                       </p> <li><strong>Querying and Retrieval:</strong><p> When a user query is made, the system retrieves the most relevant chunks that can be used for generating the response.</li>
+                    </p></ul></p>
+                    <p>By chunking the data, RAG can retrieve relevant information more efficiently, leading to quicker and more relevant responses, even with large datasets.</p>
+                </div>
+
+                <div class="day">
+                    <h3>Day 4: Latest Developments in Generative AI</h3>
+                    <p><strong>Date:</strong> Thursday, July 4, 2024</p>
+                    <p>Generative AI continues to evolve, with new advancements and capabilities emerging. Some of the latest trends include:</p>
+                    <p><ul>
+                        <li><strong>Multimodal Models:</strong><p> AI systems that can process and generate not just text, but also images, audio, and video, enabling more interactive and immersive user experiences.</li>
+                        </p><li><strong>Real-Time Adaptability:</strong> <p>Models that can adapt to real-time data and user input, offering more personalized, accurate, and context-aware responses.</li>
+                        </p><li><strong>Ethical and Fairness Considerations:</strong><p> Ongoing research into ensuring generative AI models are free from bias, ethical concerns, and provide fair, transparent results.</li>
+                    </p></ul></p>
+                    <p>These developments are pushing the boundaries of what AI can achieve, making it more versatile and applicable to various industries.</p>
+                </div>
+
+                <div class="day">
+                    <h3>Day 5: Problems That RAG Can Solve</h3>
+                    <p><strong>Date:</strong> Friday, July 5, 2024</p>
+                    <p>RAG is particularly effective in solving the following problems:</p>
+                    <p><ul>
+                        <li><strong>Accuracy in Question Answering:</strong><p> RAG can retrieve and integrate relevant documents, ensuring that the answers provided are accurate and factually correct, especially for complex or niche queries.</li>
+                       </p> <li><strong>Handling Outdated Information:</strong> <p>By pulling in real-time data, RAG helps ensure that the information used by the AI is up-to-date, solving the problem of outdated knowledge in traditional LLMs.</li>
+                        </p><li><strong>Complex Knowledge Synthesis:</strong><p> RAG is well-suited for generating responses based on multiple data sources, making it ideal for answering complex questions that require the integration of information from various areas.</li>
+                    </p></ul></p>
+                    <p>By combining retrieval with generation, RAG ensures that the responses are both relevant and accurate, providing a more reliable and powerful AI solution.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+  
+    <footer lang="en">
+        <p lang="en">AlertEnterprise</p>
+        <p lang="en">&copy;2025 Simranjeet Kaur | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
